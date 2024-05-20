@@ -19,7 +19,7 @@ class CommonCard extends StatelessWidget {
         padding: padding ?? const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
         decoration: BoxDecoration(
           color: color ?? Colors.white,
-          borderRadius: borderRadius ?? const BorderRadius.all(Radius.circular(16)),
+          borderRadius: borderRadius ?? const BorderRadius.all(Radius.circular(6)),
           boxShadow: [
             boxShadow ??
                 BoxShadow(blurRadius: 10.0, offset: const Offset(0, 5), color: const Color(0xff666666).withOpacity(0.1))
