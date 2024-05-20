@@ -53,7 +53,7 @@ class CommonButton extends StatelessWidget {
         padding: const EdgeInsets.symmetric(vertical: 12),
         decoration: BoxDecoration(
           color: _getButtonColor(),
-          borderRadius: const BorderRadius.all(Radius.circular(24)),
+          borderRadius: const BorderRadius.all(Radius.circular(6)),
           border: (isActive == false && isDisabled == false) ? Border.all(color: Colors.teal, width: 2) : null,
         ),
         child: Text(
